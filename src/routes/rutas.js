@@ -7,4 +7,4 @@ router.post('/contactos', contacto_controller.addContacto);
 router.put('/contactos/:id', contacto_controller.updateContacto);
 router.delete('/contactos', contacto_controller.delContacto);
 
-module.exports = router;
+module.exports = router
